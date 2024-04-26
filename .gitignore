@@ -4,3 +4,4 @@
 .venv
 venv
 notes
+db.sqlite3

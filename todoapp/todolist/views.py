@@ -23,7 +23,7 @@ def add(request):
 
 def update(request, todo_id):
     todo = Todo.objects.get(pk=todo_id)
-    todo.is_complete = todo.is_complete
+    todo.is_complete = not todo.is_complete
     todo.save()
     return redirect('index')
 
