@@ -15,8 +15,6 @@ Run the following commands to bootstrap your environment:
     venv/Scripts/activate.bat
     pip install -r requirements.txt
 
-    cp .env.template .env
-
 Run the app locally:
     
     npm run start
